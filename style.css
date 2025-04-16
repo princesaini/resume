@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+body {
+    margin: 0% 10% 0% 10%;
+}
+  
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+h3{
+    color: green;
+}
+p {
+    text-align: justify;
+}
+.inline-points {
+    font-weight: bolder;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; /* makes it look cleaner by merging borders */
+}
+
+table {
+    width: 100%; /* optional, for layout */
+}
+th {
+    padding: 6px;
+    text-align: left;
+}
+td {
+    padding: 6px; /* adds spacing inside cells */
+    text-align: left;
+}
